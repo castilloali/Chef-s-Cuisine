@@ -4,22 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice Bootstrap</title>
-    <!-- the main file of css -->
-    <link rel="stylesheet" href="css/style.css">
+    <title>chef's Cuisine </title>
     <!-- Css file of Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Css file of fontawesome  -->
+    <!-- Css file of  fontawesome  -->
     <link rel="stylesheet" href="css/all.min.css">
+    <!-- the main file of css -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Start navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container pt-1">
+            <a class="navbar-brand" href="#">
+                <img  src="imags/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link  p-lg-3 fs-5 " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3 fs-5 " href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3 fs-5 " href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3 fs-5 " href="#">Contact</a>
+                    </li>
+                </ul>
+                <a class="Book-Table fw-bold fs-4 text-decoration-none" href="">Book Table</a>
+            </div>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+    <!-- Start Landing page -->
+    <div class="landing  ">
+        <div class="container pt-5">
+            <div class="row pt-5 d-flex justify-content-center align-items-center pb-2">
+                <div class="col-sm-12 col-md-6 col-lg-6 pb-2 text-md-start">
+                    <h1 class="pb-4">The flavor of <br> tradition</h1>
+                    <p class="pb-2 ">We are a multi-cuisine restaurant 
+                        offering a wide variety of food experience 
+                        in both casual and fine dining environment.
+                    </p>
+                    <a class="Book-Table  fw-bold fs-4 text-decoration-none " href="">Expore Menu</a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 pt-2">
+                    <img class="img-fluid" src="imags/heroImg.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Landing page -->
 
 
-    <!-- the main file of JavaScript -->
-    <script src="js/main.js"></script>
+    <!-- Start Our Info -->
+    <div class="storeInfo">
+        <div class="container">
+            
+        </div>
+    </div>
+    <!-- End Our Info -->
+
     <!-- JS file of Bootstrap -->
     <script src="js/bootstrap.bundle.js"></script>
     <!-- JS file of fontawesome  -->
     <script src="js/all.min.js"></script>
+        <!-- the main file of JavaScript -->
+        <script src="js/main.js"></script>
 </body>
 </html>
