@@ -14,6 +14,27 @@ body {
     padding-bottom: 100px;
     padding-top: 100px;
 }
+
+
+h3 {
+    color: var(--main-color);
+}
+h2 {
+    color: var(--head-text);
+    font-weight: 500;
+}
+p {
+    /* max-width: 400px; */
+    line-height: 1.5;
+}
+
+.hold-stars {
+    width: 130px;
+    margin-bottom: 20px ;
+}
+.hold-stars img{
+    width: 100%;
+}
 /* End local */
 
 
@@ -49,14 +70,7 @@ body {
     text-align: center;
 }
 
-h2 {
-    color: var(--head-text);
-    font-weight: 500;
-}
-p {
-    /* max-width: 400px; */
-    line-height: 1.5;
-}
+
 /* End Landing */
 
 
@@ -82,9 +96,7 @@ p {
     border-radius: 15px;
 }
 
-.ourSpecials__item h3 {
-    color: var(--main-color);
-}
+
 .flying-photo {
     /* width: 90%; */
     border-radius: 18px;
@@ -100,12 +112,11 @@ p {
     /* <!-- End Our Specials --> */
 
 
-
+    /* Start Top Dishes */
 .dish {
     background-color: var(--lightgeen1-box);
     border-radius: 15px ;
 }
-
 
 .dish .hold-img-dish {
     width: 150px;
@@ -113,3 +124,39 @@ p {
     border-radius: 15px;
     overflow: hidden;
 }
+    /* End Top Dishes */
+
+
+.info-dish-for-discount {
+    position: relative;
+    /* overflow: hidden; */
+}
+.container-dish-for-discount {
+    background: var(--lightgeen1-box);
+    border-radius: 15px;
+}
+.hold-h3 .h3 {
+    color: #242424;
+}
+.imags-discount {
+    position: absolute;
+    width: 150px;
+    right: -15px;
+    bottom: -15px;
+}
+
+/* .hold-img-dish-for-discount .row div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+} */
+/* .hold-img-dish-for-discount  div {
+    border-radius: 15px;
+    height: 400px;
+    overflow: hidden;
+} */
+/* .hold-img-dish-for-discount .row div span{
+
+    border-radius: 30px;
+    overflow: hidden;
+} */
