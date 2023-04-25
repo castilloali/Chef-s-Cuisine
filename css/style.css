@@ -1,11 +1,24 @@
 :root {
     --main-color: rgb(0, 114, 69);
     --head-text: #3b413a ;
+    --lightgeen1-box: #d6e5d8 ;
 }
 
 body {
     background: rgb(243, 255, 255);
 }
+
+
+/* Start local */
+.m-bot-m-top {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+/* End local */
+
+
+
+
 
 
 
@@ -32,11 +45,11 @@ body {
 
 /* Start Landing */
 .landing {
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
 }
 
-h1 {
+h2 {
     color: var(--head-text);
     font-weight: 500;
 }
@@ -45,3 +58,57 @@ p {
     line-height: 1.5;
 }
 /* End Landing */
+
+
+/* Start Our Info  */
+.storeInfo .container .Infoitem{
+    width: 210px;
+    height: 210px;
+    background-color: var(--lightgeen1-box);
+    border-radius: 15px;
+}
+.storeInfo .container .Infoitem svg{
+    color: var(--main-color);
+}
+/* End Our Info  */
+
+
+/* <!-- Start Our Specials --> */
+
+.ourSpecials__item {
+    background-color: var(--lightgeen1-box);
+    width: 50%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.ourSpecials__item h3 {
+    color: var(--main-color);
+}
+.flying-photo {
+    /* width: 90%; */
+    border-radius: 18px;
+    overflow: hidden;
+    margin-top: -50% ;
+}
+
+.second-container {
+    padding-top: 200px;
+    width: 1000px;
+    margin: auto;
+}
+    /* <!-- End Our Specials --> */
+
+
+
+.dish {
+    background-color: var(--lightgeen1-box);
+    border-radius: 15px ;
+}
+
+
+.dish .hold-img-dish {
+    width: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+}
