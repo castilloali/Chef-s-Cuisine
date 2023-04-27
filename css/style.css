@@ -1,6 +1,6 @@
 :root {
     --main-color: rgb(0, 114, 69);
-    --head-text: #3b413a ;
+    --head-text: #262a26 ;
     --lightgeen1-box: #d6e5d8 ;
 }
 
@@ -21,7 +21,7 @@ h3 {
 }
 h2 {
     color: var(--head-text);
-    font-weight: 500;
+    font-weight: 700;
 }
 p {
     /* max-width: 400px; */
@@ -126,11 +126,12 @@ p {
 }
     /* End Top Dishes */
 
+    /* <!-- Start Dish For Discount --> */
 
 .info-dish-for-discount {
     position: relative;
-    /* overflow: hidden; */
 }
+
 .container-dish-for-discount {
     background: var(--lightgeen1-box);
     border-radius: 15px;
@@ -145,18 +146,24 @@ p {
     bottom: -15px;
 }
 
-/* .hold-img-dish-for-discount .row div img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-} */
-/* .hold-img-dish-for-discount  div {
-    border-radius: 15px;
-    height: 400px;
-    overflow: hidden;
-} */
-/* .hold-img-dish-for-discount .row div span{
+/* <!-- End Dish For Discount --> */
 
-    border-radius: 30px;
-    overflow: hidden;
-} */
+
+/* <!-- End images for Events --> */
+.item {
+    background: var(--lightgeen1-box);
+}
+/* <!-- End images for Events --> */
+
+
+
+
+/* <!-- Start Choose Our Food --> */
+.hold-why-us {
+    width: 35%;
+}
+.why-us {
+    background: var(--lightgeen1-box);
+    
+}
+/* <!-- End Choose Our Food --> */
