@@ -1,6 +1,6 @@
 :root {
     --main-color: rgb(0, 114, 69);
-    --head-text: #262a26 ;
+    --head-text: #353a35 ;
     --lightgeen1-box: #d6e5d8 ;
 }
 
@@ -19,6 +19,9 @@ body {
 h3 {
     color: var(--main-color);
 }
+h1 {
+    color: var(--head-text);
+}
 h2 {
     color: var(--head-text);
     font-weight: 700;
@@ -36,11 +39,6 @@ p {
     width: 100%;
 }
 /* End local */
-
-
-
-
-
 
 
 /* Start navbar */
@@ -106,7 +104,7 @@ p {
 
 .second-container {
     padding-top: 200px;
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
 }
     /* <!-- End Our Specials --> */
@@ -160,10 +158,70 @@ p {
 
 /* <!-- Start Choose Our Food --> */
 .hold-why-us {
-    width: 35%;
+    width:50%;
 }
 .why-us {
     background: var(--lightgeen1-box);
     
 }
+.cont_right {
+    text-align: center;
+}
 /* <!-- End Choose Our Food --> */
+
+
+/* <!-- Start comment from Our Customers  --> */
+.comment .row {
+    background-color: var(--lightgeen1-box);
+}
+/* <!-- End comment from Our Customers  --> */
+
+
+
+.newsletter .container{
+    background-color: #83cbb0;
+}
+
+
+
+.newsletter  form{
+    width: 100%;
+}
+.newsletter  .right input{
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 15px 0 0 15px;
+    width: 80%;
+    font-weight: 700;
+}
+
+.newsletter .container .right button{
+    padding: 20px;
+    margin: -5px;
+    border: none;
+    background: aquamarine;
+    border-radius: 0 15px 15px 0;
+    width: 20%;
+    font-weight: 700;
+}
+
+
+footer {
+    background-color: #e2e2e2;
+}
+footer ul {
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
+}
+footer ul li{
+    list-style: none;
+    padding: 3px;
+    font-size: 18px;
+}
+footer  a{
+    text-decoration: none;
+    color: black;
+
+}
