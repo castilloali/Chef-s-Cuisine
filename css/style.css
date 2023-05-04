@@ -207,6 +207,7 @@ p {
 }
 
 
+/* Start Footer */
 footer {
     background-color: #e2e2e2;
 }
@@ -223,5 +224,6 @@ footer ul li{
 footer  a{
     text-decoration: none;
     color: black;
-
+    
 }
+/* End Footer */
