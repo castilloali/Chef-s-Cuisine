@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/all.min.css">
     <!-- the main file of css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Css file aso for animation on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!-- Start navbar -->
@@ -25,7 +27,7 @@
             <div class="collapse navbar-collapse" id="main">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link  p-lg-3 fs-5 " aria-current="page" href="#">Home</a>
+                        <a class="nav-link  p-lg-3 fs-5 " aria-current="page" href="https://castilloali.github.io/Chef-s-Cuisine/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link p-lg-3 fs-5 " href="https://castilloali.github.io/menu/">Menu</a>
@@ -42,12 +44,11 @@
         </div>
     </nav>
     <!-- End navbar -->
-
     <!-- Start Landing page -->
     <div class="landing  ">
         <div class="container pt-5">
             <div class="row pt-5 d-flex justify-content-center align-items-center pb-2">
-                <div class="col-sm-12 col-md-6 col-lg-6 pb-5 text-md-start">
+                <div class="col-sm-12 col-md-6 col-lg-6 pb-5 text-md-start" data-aos="fade-right">
                     <h1 class="pb-4">The flavor of <br> tradition</h1>
                     <p class="pb-2 ">We are a multi-cuisine restaurant 
                         offering a wide variety of food experience 
@@ -55,19 +56,17 @@
                     </p>
                     <a class="Book-Table  fw-bold fs-4 text-decoration-none " href="https://castilloali.github.io/menu/">Expore Menu</a>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 pt-2">
-                    <img class="img-fluid" src="imags/heroImg.png" alt="">
+                <div class="col-sm-12 col-md-6 col-lg-6 pt-2" data-aos="fade-left">
+                    <img class="img-fluid " src="imags/heroImg.png" alt="">
                 </div>
             </div>
         </div>
     </div>
     <!-- End Landing page -->
-
-
     <!-- Start Our Info -->
     <div class="storeInfo mt-5 mb-5 pt-5 pb-5">
 
-        <div class="container d-flex justify-content-center ">
+        <div class="container d-flex justify-content-center " data-aos="fade-up">
 
             <div class="hold-infoitems d-flex justify-content-center gap-4 flex-wrap">
 
@@ -76,7 +75,7 @@
                     <h5 class="mt-3">10 AM - 7 PM</h5>
                     <p>Opening Hour</p>
                 </div>
-                <div class="Infoitem text-center ">
+                <div class="Infoitem text-center" >
                     <i class="fa-solid fa-map-location-dot fa-3x mt-5"></i>
                     <h5 class="mt-3">GEC, Chittagong</h5>
                     <p>Address</p>
@@ -91,7 +90,6 @@
         </div>
     </div>
     <!-- End Our Info -->
-
     <!-- Start Our Specials -->
     <div class="ourspecials m-bot-m-top ">
         <div class="container">
@@ -99,7 +97,7 @@
             <div class="second-container">
                 <div class="row gap-4 ">
 
-                    <div class="ourSpecials__left col-sm-12 col-md-12 col-lg-6 d-flex gap-4 flex-row">
+                    <div class="ourSpecials__left col-sm-12 col-md-12 col-lg-6 d-flex gap-4 flex-row " data-aos="fade-up-right">
 
                         <!-- <div class="row gap-4 flex-row"> -->
 
@@ -120,7 +118,7 @@
                             </div>
     
     
-                            <div class="ourSpecials__item ">
+                            <div class="ourSpecials__item">
                                 
                                 <div class="flying-photo"><img class="img-fluid" src="imags/food-3.png" alt=""></div>
                                 <h2 class="pt-5">Sweet Potato Fries Bowl</h2>
@@ -139,7 +137,7 @@
                         <!-- </div> -->
                         
                     </div>
-                    <div class="ourSpecials__right col-sm-12 col-md-12 col-lg-5">
+                    <div class="ourSpecials__right col-sm-12 col-md-12 col-lg-5 "  data-aos="fade-left">
                         <h2>Our Specials</h2>
                         <p>All of our food is prepared daily at our 
                             restaurants </p>
@@ -151,9 +149,8 @@
         </div>
     </div>
     <!-- End Our Specials -->
-
     <!-- Start Top Dishes  -->
-    <div class="top-dishes m-bot-m-top ">
+    <div class="top-dishes m-bot-m-top " data-aos="fade-up">
         <div class="container">
             <h4>Top Dishes</h4>
             <div class="row">
@@ -174,7 +171,7 @@
                     <div class="aoutdish">
                         <h5>Vegan Pesto Zoodles</h5>
                         <h6>$12</h6>
-                        <div><img src="imags/3star.png" alt=""></div>
+                        <div ><img src="imags/3star.png" alt=""></div>
                     </div>
                 </div>
                 </div>
@@ -195,15 +192,13 @@
         </div>
     </div>
     <!-- End Top Dishes  -->
-
-
     <!-- Start Dish For Discount -->
     <div class="dish-for-discount  m-bot-m-top">
         <div class="container  container-dish-for-discount">
 
 
         
-            <div class="row p-3 ">
+            <div class="row p-3  " data-aos="fade-up">
                 <div class="hold-img-dish-for-discount col-lg-7 col-md-12 col-sm-12">
                     <div class="row-dish-for-discount d-flex">
                         <div class="p-1"><img class="img-fluid rounded" src="imags/food-4.png" alt=""></div>
@@ -221,43 +216,39 @@
                     </div>
                     <div class="hold-stars"><img class="" src="imags/3star.png" alt=""></div>
                     <a class="Book-Table fw-bold fs-4 text-decoration-none " href="https://castilloali.github.io/Book-Table/">Book Table</a>
-                    <img class="imags-discount" src="imags/discount-illustration.png" alt="">
+                    <img data-aos="fade-up" class="imags-discount" src="imags/discount-illustration.png" alt="">
                 </div>
             </div>
             
         </div>
     </div>
     <!-- End Dish For Discount -->
-
     <!-- Start images for Events -->
     <div class="images-forevents m-bot-m-top">
         <div class="container">
             <div class="row-event d-flex gap-2 ">
-                <div class="overflow-hidden" style="flex: 2;"><img class="" style="width: 100%; height: 100%;" src="imags/eventsMedia1.png" alt=""> <img src="imags/" alt=""></div>
-                <div class="overflow-hidden" style="flex: 1;"><img class="" style="width: 100%; height: 100%;" src="imags/eventsMedia2.png" alt=""></div>
+                <div class="overflow-hidden" data-aos="zoom-out-right" style="flex: 2;"><img class="" style="width: 100%; height: 100%;" src="imags/eventsMedia1.png" alt=""> <img src="imags/" alt=""></div>
+                <div class="overflow-hidden" data-aos="zoom-out-left" style="flex: 1;"><img class="" style="width: 100%; height: 100%;" src="imags/eventsMedia2.png" alt=""></div>
             </div>
-           
         </div>
     </div>
     <!-- End images for Events -->
-
-
     <!-- Start Book For Events-->
     <div class="for-event">
         <div class="container">
             <div class="row">
-                <div class="cont_left col-lg-6 col-md-12 col-sm-12 ">
-                    <div class="item rounded p-3 gap-3 d-flex mb-3">
-                        <div class="rounded  overflow-hidden " style="flex: 1; " ><img style="object-fit: cover; width: 100%; height: 100%;" src="imags/event-corporate.png" alt=""></div>
+                <div class="cont_left col-lg-6 col-md-12 col-sm-12" >
+                    <div class="item rounded p-3 gap-3 d-flex mb-3" data-aos="fade-right">
+                        <div class="rounded  overflow-hidden " data-aos="fade-right" style="flex: 1; " ><img style="object-fit: cover; width: 100%; height: 100%;" src="imags/event-corporate.png" alt=""></div>
                         <div style="flex: 2;">
                             <h4>Corporate Events</h4>
                             <p>Shaif's Cuisine is the perfect
-                                 venue for your corporate events. We 
-                                 specialize in private parties.</p>
+                                venue for your corporate events. We 
+                                specialize in private parties.</p>
                         </div>
                     </div>
-                    <div class="item rounded p-3 gap-3 d-flex">
-                        <div class="rounded  overflow-hidden " style="flex: 1; " ><img style="object-fit: cover; width: 100%; height: 100%;" src="imags/event-weedings.png" alt=""></div>
+                    <div class="item rounded p-3 gap-3 d-flex" data-aos="fade-right">
+                        <div class="rounded  overflow-hidden " data-aos="fade-right" style="flex: 1; " ><img style="object-fit: cover; width: 100%; height: 100%;" src="imags/event-weedings.png" alt=""></div>
                         <div style="flex: 2;">
                             <h4>Weddings</h4>
                             <p>Shaif's Cuisine offers an intimately unique
@@ -268,7 +259,7 @@
                     </div>
                     <!-- <div class="item"></div> -->
                 </div>
-                <div class="cont_right text-lg-start col-lg-6 col-md-12 col-sm-12 pt-2 p-5">
+                <div class="cont_right text-lg-start col-lg-6 col-md-12 col-sm-12 pt-2 p-5 " data-aos="fade-left">
                     <h2>Book For Events</h2>
                     <p>Book your private event or corporate 
                         function at Shaif's cuisine to 
@@ -279,13 +270,11 @@
         </div>
     </div>
     <!-- End Book For Events -->
-
-
     <!-- Start Choose Our Food -->
     <div class="choose-our-food m-bot-m-top">
         <div class="container">
             <div class="row">
-                <div class="cont_left col-lg-7 col-md-7 col-sm-12 pt-5">
+                <div class="cont_left col-lg-7 col-md-7 col-sm-12 pt-5" data-aos="fade-right">
                     <h2>Why Choose Our Food</h2>
                     <p>Quality of Service, Food, Ambiance, and Value of 
                         Money are the primary elements for choosing a 
@@ -294,8 +283,8 @@
                         cities with a captivating view of GEC Hills, 
                         perfect ambiance, and scrumptious food.</p>
                 </div>
-                <div class="cont_right  col-lg-5 col-md-5 col-sm-12 pt-2">
-                    <div class="row-advantages d-flex flex-wrap ">
+                <div class="cont_right  col-lg-5 col-md-5 col-sm-12 pt-2 ">
+                    <div class="row-advantages d-flex flex-wrap " data-aos="fade-up">
                         <div class="hold-why-us p-2">
                             <div class="why-us text-center rounded">
                                 <img class="pt-5" src="https://d33wubrfki0l68.cloudfront.net/c5ff1b62243065fefac2d33cad9eb75287a05759/182c5/images/whyus-icon1.svg" alt="">
@@ -303,20 +292,20 @@
                             </div>
                         </div>
                         <div class="hold-why-us p-2">
-                            <div class="why-us text-center rounded">
+                            <div class="why-us text-center rounded" data-aos="fade-up">
                                 <img class="pt-5" src="https://d33wubrfki0l68.cloudfront.net/9d2902618b5809f383f55647ade358e0c8319d8f/ca82f/images/whyus-icon2.svg" alt="">
                                 <h6 class="pt-2 pb-5">Classical taste</h6>
                             </div>
                         </div>
                         <div class="hold-why-us p-2">
-                            <div class="why-us text-center rounded">
+                            <div class="why-us text-center rounded" data-aos="fade-up">
                                 <img class="pt-5" src="https://d33wubrfki0l68.cloudfront.net/ec06820d4166afd91931ba9577e3f453525ecf32/30491/images/whyus-icon3.svg" alt="">
                                 <h6 class="pt-2 pb-5">Skilled chef</h6>
                             </div>
                         </div>
                         
                         <div class="hold-why-us p-2">
-                            <div class="why-us text-center rounded">
+                            <div class="why-us text-center rounded" data-aos="fade-up">
                                 <img class="pt-5" src="https://d33wubrfki0l68.cloudfront.net/9aee7c4efd47314274a3db61d72d62c36183d381/289ed/images/whyus-icon4.svg" alt="">
                                 <h6 class="pt-2 pb-5">Best service</h6>
                             </div>
@@ -327,8 +316,6 @@
         </div>
     </div>
     <!-- Start Choose Our Food -->
-
-
     <!-- Start comment from Our Customers  -->
     <div class="our-customers m-bot-m-top">
         <div class="container">
@@ -337,7 +324,7 @@
             
                 <h2 class="text-center fs-1 pb-2">What Our Customers Say</h2>
                 <div class="row ">
-                    <div class="comment  col-sm-12 col-md-6 col-lg-6 col-12 pt-3 ps-4">
+                    <div class="comment  col-sm-12 col-md-6 col-lg-6 col-12 pt-3 ps-4 pe-4">
                         <div class="row rounded pt-2 pb-2" >
                             <div class="col-sm-4 col-md-4 col-lg-4  col col-4"><img  style=" width: 100%; height: 100%; object-fit: cover;" class="rounded"  src="imags/testimonial_img1.png" alt=""></div>
                             <div class="col-sm-8 col-md-8 col-lg-8  col col-8">
@@ -352,7 +339,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="comment  col-sm-12 col-md-6 col-lg-6 col-12 pt-3 ps-4">
+                    <div class="comment  col-sm-12 col-md-6 col-lg-6 col-12 pt-3 ps-4 pe-4">
                         <div class="row rounded pt-2 pb-2" >
                             <div class="col-sm-4 col-md-4 col-lg-4 col col-4"><img  style=" width: 100%; height: 100%; object-fit: cover;" class="rounded"   src="imags/testimonial_img1.png" alt=""></div>
                             <div class="col-sm-8 col-md-8 col-lg-8 col col-8">
@@ -367,7 +354,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="comment  col-sm-12 col-md-6 col-lg-6 col-12 pt-3 ps-4">
+                    <div class="comment  col-sm-12 col-md-6 col-lg-6 col-12 pt-3 ps-4 pe-4">
                         <div class="row rounded pt-2 pb-2" >
                             <div class="col-sm-4 col-md-4 col-lg-4 col col-4"><img  style=" width: 100%; height: 100%; object-fit: cover;" class="rounded"   src="imags/testimonial_img1.png" alt=""></div>
                             <div class="col-sm-8 col-md-8 col-lg-8 col col-8">
@@ -382,7 +369,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="comment  col-sm-12 col-md-6 col-lg-6 col-12 pt-3 ps-4">
+                    <div class="comment  col-sm-12 col-md-6 col-lg-6 col-12 pt-3 ps-4 pe-4">
                         <div class="row rounded pt-2 pb-2" >
                             <div class="col-sm-4 col-md-4 col-lg-4 col col-4"><img  style=" width: 100%; height: 100%; object-fit: cover;" class="rounded"   src="imags/testimonial_img1.png" alt=""></div>
                             <div class="col-sm-8 col-md-8 col-lg-8 col col-8">
@@ -402,10 +389,6 @@
         </div>
     </div>
     <!-- End comment from Our Customers  -->
-
-
-
-
     <!-- Start Newsletter -->
     <div class="newsletter m-bot-m-top">
         <div class="container rounded-3 pe-5 ps-5 pt-5 pb-5" >
@@ -426,7 +409,6 @@
         </div>
     </div>
     <!-- End Newsletter -->
-
     <!-- Start footer -->
     <footer class="pt-5 pb-3" >
         <div class="container">
@@ -478,7 +460,12 @@
     <script src="js/bootstrap.bundle.js"></script>
     <!-- JS file of fontawesome  -->
     <script src="js/all.min.js"></script>
-        <!-- the main file of JavaScript -->
-        <script src="js/main.js"></script>
+    <!-- the main file of JavaScript -->
+    <script src="js/main.js"></script>
+    <!-- js file aso for animation on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        </script>
 </body>
 </html>
